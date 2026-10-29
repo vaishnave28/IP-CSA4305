@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Library</title>
+</head>
+<body>
+
+<h1>Library Management System</h1>
+
+<h2>Admin</h2>
+Username: <input type="text"><br><br>
+Password: <input type="password"><br><br>
+<button>Login</button>
+
+<h2>User</h2>
+Name: <input type="text"><br><br>
+<button>Register</button>
+<button>Login</button>
+
+<h3>Search Book</h3>
+<input type="text" placeholder="Book name">
+<button>Search</button>
+
+<h3>Books</h3>
+<table border="1">
+<tr><th>Book</th><th>Status</th></tr>
+<tr><td>Java</td><td>Available</td></tr>
+<tr><td>HTML</td><td>Issued</td></tr>
+</table>
+
+<h3>Study Material</h3>
+<select>
+<option>1st Year</option>
+<option>2nd Year</option>
+</select>
+<button>Download</button>
+
+</body>
+</html>
